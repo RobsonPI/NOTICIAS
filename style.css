@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 :root {
@@ -29,7 +30,6 @@ body {
 .header-mobile button {
     border: none;
     background: none;
-
 }
 
 .primeira-seçao {
@@ -39,4 +39,62 @@ body {
 .primeira-seçao img {
     width: 100%;
     margin-bottom: 1.5rem;
+}
+
+.primeira-seçao h1 {
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+.primeira-seçao p {
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    color: var(--gunmetal);
+    margin-bottom: 1.5rem;
+}
+
+.primeira-seçao button {
+    padding:0.75rem 2rem;
+    background-color: var(--vermillion);
+    border: none;
+    text-transform: uppercase;
+    color: var(--amost-white);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.275rem;
+    line-height: 1.5rem;
+}
+
+.segunda-seçao {
+    background-color: var(--dark-blue);
+    margin-bottom: 4rem;
+    padding: 1.5rem 1.1rem;
+}
+
+.segunda-seçao h2 {
+    color: var(--yellow);
+    font-size: 2rem;
+    line-height: 100%;
+    margin-bottom: 2.2rem;
+}
+
+.margin-border-padding{
+    border: 1px solid var(--gunmetal);
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+
+.segunda-seçao h3 {
+    color: var(--amost-white);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.segunda-seçao p {
+    color: var(--silver);
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
 }
